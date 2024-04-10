@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <style type="text/css">
+      *{
+        margin: 0;
+        padding: 0;
+        font-family: cursive;
+        box-sizing: border-box;
+      } 
+      .flex-container{
+        width: 100%;
+        height: auto;
+      } 
+      .flex-box{
+      width: 200px;
+      height: 200px;
+      }
+      .container .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap:5px ;
+      }
+      .container .box-container .box{
+        margin-top: 50px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        border-radius: 5px;
+        background: #fff;
+        text-align: center;
+        padding: 30px 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+</style>
+   
+      
+    
+    
+  </head>
+  <body>
+    
+  
+    <h1 style="text-align: center;margin-top: 100px;">What is your math comfort level?</h1>
+    
+    <p style="text-align: center">Choose the highest level you feel confident in - you can always adjust later</p>
+    
+ <link rel="stylesheet" href="style.css">
+ <div class="container">
+
+    <div class="box-container">
+      <div class="box">
+        <img src="" alt="">
+        <h3>5 × 1/2 = ?</h3>
+        
+        <p>Arithmetic</p>
+        
+        <p style="font-family:'Courier New', Courier, monospace;">Introductory</p>
+        
+      </div>
+
+      <div class="box">
+      
+        <h3>3x + 5 = 4</h3>
+        
+        <p>Basic Algebra</p>
+        
+        <p style="font-family:'Courier New', Courier, monospace;">Foundational</p>
+        
+      </div>
+      <div class="box">
+        <img src="" alt="">
+        <h3> x3 + 1 </h3>
+        
+        <p>Intermediate Algebra</p>
+        
+        <p style="font-family:'Courier New', Courier, monospace;">Intermediate</p>
+        
+      </div>
+      
+          
+       
+      
+      <div class="box">
+        <img src="" alt="">
+        <h3>∫x<sup>2</sup>dx</h3>
+        
+        <p>Calculus</p>
+        
+        <p style="font-family:'Courier New', Courier, monospace;">Advanced</p>
+        
+      </div>
+      
+
+    </div>
+  
+      <a href="continue4.html">
+        <button   style="background-color: black; border-radius: 5px;  color:white;width: 120px;height: 40px;margin-left: 550px;margin-right: 550px;margin-top: 50px; margin-bottom: 50px;">Continue</button>
+      </a>
+    </div> 
+     
+  </body>
+</html>
